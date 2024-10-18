@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 96px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.main-container{
+    display: flex;
+    gap: 50px;
+    color: orange;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.banner-container{
+    background-image: url('images/The_Top20Cybersecurity_Terms_You_Need_to_Know.avif'), linear-gradient(90deg,rgb(86, 80, 80),rgb(86, 80, 80));
+    width: 100%;
+    height: 742px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    justify-content: space-between;
+}
+.dis{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+.ban-img{
+    width: 490px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.banner_description{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.des-1{
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+}
+.des-2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.banner-btn{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+}
+.banner-description-left{
+    margin-left: 20px;
+}
+.banner-logo{
+    width: 90%;
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-self: center;
+}
+.banner-logo-img{
+    width: 150px;
+    align-items: center;
+}
+.box{
+    align-self: center;
+}
+.main-banner{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.main-banner-title{
+    font-size: 40px;
+}
+.main-banner-box{
+    width: 350px;
+    height: 250px;
+    border: 1px dotted grey;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.title{
+    font-size: 20px;
+}
+.title-description{
+    width: 80%;
+    margin-left: 30px;
+    text-align: center;
+}
+.main-banner-all{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+}
+.bar{
+    margin-bottom: 10px;
+}
+.banner-finish{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+}
+.banner-finish-left{
+    width: 570px;
+    height: 600px;
+    align-items: center;
+    
+}
+.banner-finish-right{
+    align-items: center;
+}
+.des-3{
+    font-size: 40px;
+}
+.des-4{
+    width: 600px;
+    line-height: 1.5;
+}
+.btn-final{
+    padding: 10px;
+    background-color: rgb(83, 206, 248);
+    border: none;
+}
+.banner-finish-icon{
+    font-size: 90px;
+    color: orange;
+}
+.icon-final{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.icon-des{
+    font-size: 30px;
+}
+.final-num{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.footer-container{
+    width: 100%;
+    height: 392px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+.foot-des-01{
+    margin-top: 60px;
+    width: 321px;
+    height: 252px;
+    color: white;
+}
+.foot-des-11{
+    display: flex;
+    justify-content : center;
+}
+.foot-des-22{
+    width: 297px;
+    height: 96px;
+    text-align: center;
+}
+.foot-inp{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: grey;
+    border: none;
+}
+.foot-des-02{
+    margin-top: 90px;
+    width: 215px;
+    height: 252px;
+    color: white;
+}
+.foot-des-05{
+    margin-top: 90px;
+    width: 321px;
+    height: 252px;
+    color: white;
+}
+.footer-address{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-des-11-title{
+    margin-top: 30px;
+    color: orange;
+}
+.footer-class-title{
+    color: orange;
+}
+.footer-address-1{
+    color: orange;
+    font-size: 20px;
+}
+.footer-address-2{
+    font-size: 20px; 
+}
+@media only screen and (min-width: 320px) and (max-width: 838){
+    .nav{
+        width: 50%;
+    }
+    .des-3{
+        font-size: 20px;
+    }
+    .des-4{
+        
+        line-height: 1.5;
+    }
+    .banner-finish-right{
+        align-items: center;
+        width: 320px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
